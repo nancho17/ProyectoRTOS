@@ -1,0 +1,375 @@
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002fc4 000000bc t uartProcessIRQ
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c94 00000004 b rxIsrCallbackUART0
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c98 00000004 b rxIsrCallbackUART2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c9c 00000004 b rxIsrCallbackUART3
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ca0 00000004 b txIsrCallbackUART0
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ca4 00000004 b txIsrCallbackUART2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ca8 00000004 b txIsrCallbackUART3
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004ed4 00000048 t lpcUarts
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0006c8 00000080 t Ampu9250InitializeControlStructure
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000748 00000034 t Ampu9250ReadRegisters
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00077c 00000020 t Ampu9250WhoAmI
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00079c 00000048 t Ampu9250WriteRegister
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0007e4 00000058 t Ampu9250ReadAK8963Registers
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00083c 00000020 t Ampu9250WhoAmIAK8963
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00085c 00000078 t Ampu9250WriteAK8963Register
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0008d4 00000094 t Ampu9250SetGyroRange
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000968 000000f8 t Ampu9250SetDlpfBandwidth
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000a60 000000ac t Ampu9250SetSrd
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000ddc 00000158 t Ampu9250CalibrateGyro
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100000d8 00000158 b Acontrol
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000234 00002000 b ucHeap
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000230 00000004 b pucAlignedHeap.11323
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002234 00000004 b xNextFreeByte
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001266 0000001e t prvIsQueueFull
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001284 0000001a t prvIsQueueEmpty
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00129e 00000076 t prvCopyDataToQueue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001314 00000024 t prvCopyDataFromQueue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001338 0000006e t prvUnlockQueue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00142c 00000022 t prvInitialiseNewQueue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002238 00000168 b uxIdleTaskStack.10613
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100023a0 000005a0 b uxTimerTaskStack.10620
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002940 00000060 b xIdleTaskTCB.10612
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100029a0 00000060 b xTimerTaskTCB.10619
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0019c0 0000002c t prvResetNextTaskUnblockTime
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0019ec 00000092 t prvInitialiseNewTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001a80 00000068 t prvInitialiseTaskLists
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001ae8 000000ac t prvAddNewTaskToReadyList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001b94 00000038 t prvDeleteTCB
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001bcc 0000004c t prvCheckTasksWaitingTermination
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001c18 00000028 t prvIdleTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001c40 00000098 t prvAddCurrentTaskToDelayedList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002a04 00000004 b pxDelayedTaskList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002a08 00000004 b pxOverflowDelayedTaskList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002a0c 0000008c b pxReadyTasksLists
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002a98 00000004 b uxCurrentNumberOfTasks
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002a9c 00000004 b uxDeletedTasksWaitingCleanUp
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002aa0 00000004 b uxPendedTicks
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002aa4 00000004 b uxSchedulerSuspended
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002aa8 00000004 b uxTaskNumber
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002aac 00000004 b uxTopReadyPriority
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ab0 00000014 b xDelayedTaskList1
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ac4 00000014 b xDelayedTaskList2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ad8 00000004 b xNextTaskUnblockTime
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002adc 00000004 b xNumOfOverflows
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002ae0 00000014 b xPendingReadyList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002af4 00000004 b xSchedulerRunning
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002af8 00000014 b xSuspendedTaskList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002b0c 00000014 b xTasksWaitingTermination
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002b20 00000004 b xTickCount
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002b24 00000004 b xYieldPending
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0023e8 00000020 t prvGetNextExpireTime
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002408 00000048 t prvInsertTimerInActiveList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002450 00000070 t prvCheckForValidListAndQueue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0024c0 00000040 t prvInitialiseNewTimer
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002890 00000016 t prvTimerTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00261c 00000078 t prvSwitchTimerLists
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002694 0000002c t prvSampleTimeNow
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0026c0 00000060 t prvProcessExpiredTimer
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002720 00000074 t prvProcessTimerOrBlockTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002794 000000fc t prvProcessReceivedCommands
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002b28 00000004 b pxCurrentTimerList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002b2c 00000004 b pxOverflowTimerList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002b30 000000a0 b ucStaticTimerQueueStorage.11713
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002bd0 00000014 b xActiveTimerList1
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002be4 00000014 b xActiveTimerList2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002bf8 00000004 b xLastTime.11662
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002bfc 00000050 b xStaticTimerQueue.11712
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c4c 00000004 b xTimerQueue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c50 00000004 b xTimerTaskHandle
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0028a8 00000040 t prvTaskExitError
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0028e8 00000022 t prvPortStartFirstTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002910 0000000e t vPortEnableVFP
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002970 t pxCurrentTCBConst2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002a50 t pxCurrentTCBConst
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c54 00000001 b ucMaxSysCallPriority
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c58 00000004 b ulMaxPRIGROUPValue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000000 00000004 d uxCriticalNesting
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000004 00000004 d ClockSpeed
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002c40 00000010 t clearInterrupt
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002c50 0000005c t serveInterrupt
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1000000c 00000048 d ultrasonicSensors
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004d8c 00000003 t ultrasonicSensorsIrqMap
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002ccc 00000034 t gpioObtainPinInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c64 00000030 b tickerObject.11711
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003170 00000030 t i2cHardwareInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0031a0 0000003c t i2cHardwareRead
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0031dc 0000003c t i2cHardwareWrite
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003266 00000002 t errorOcurred
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003268 00000002 t doNothing
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000054 00000040 d timer_dd
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003468 00000044 t Board_LED_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0034ac 00000040 t Board_TEC_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0034ec 00000040 t Board_GPIO_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00352c 00000038 t Board_SPI_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003564 00000024 t Board_I2C_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003588 00000030 t Board_ADC_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f20 00000008 t GpioButtons
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f28 0000000c t GpioLeds
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f34 00000012 t GpioPorts
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f4c 0000000c t InitClkStates
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f58 00000098 t pinmuxing
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0036e4 0000002c t Chip_UART_GetIndex
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004ff0 00000008 t UART_BClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004ff8 00000008 t UART_PClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00388c 00000014 t Chip_ADC_GetClockIndex
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0038a0 00000032 t getClkDiv
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003968 000000a4 t pll_calc_divs
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003a0c 0000010c t pll_get_frac
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003b18 0000004c t Chip_Clock_FindBaseClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003d8c 00000022 t Chip_Clock_GetDivRate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002cac 00000008 b audio_usb_pll_freq
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00500c 0000006c t periph_to_base
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a005078 00000048 t InitClkStates
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000094 00000038 d i2c
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004420 00000014 t Chip_SSP_GetClockIndex
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004434 00000018 t Chip_SSP_GetPeriphClockIndex
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c0 b __init_array_end
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c0 b __preinit_array_end
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c0 b __init_array_start
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c0 b __preinit_array_start
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003bb0 0000001c T Chip_Clock_GetDividerSource
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004148 0000000e T Chip_I2CM_Xfer
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0032ec 00000044 T TIMER2_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003218 0000000e T i2cInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00018e 00000002 W DebugMon_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W RIT_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a080000 A __top_MFlashA512
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W ADCHS_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000114 T __section_table_start
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W FLASH_EEPROM_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0029b8 0000002c T vPortExitCritical
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004878 0000005a T __floatdidf
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W I2C0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c5c 00000004 B callBackFuncParams
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000b0c 00000288 T Ampu9250Read
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000184 00000002 W HardFault_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0018a8 00000052 T vQueueWaitForMessageRestricted
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0041f4 00000120 T handleMasterXferState
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000000 A __vectors_start__
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003946 0000000c T Chip_ADC_SetResolution
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000f34 000002ac T Ampu9250Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002a54 0000002c T SysTick_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003764 00000040 T Chip_UART_SetBaud
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SDIO_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W ATIMER_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0029f0 00000064 T PendSV_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00165c 000000cc T xQueueGenericSendFromISR
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000182 00000002 W NMI_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c8 R __exidx_end
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000150 T __data_section_table_end
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W I2C1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W UART1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GPIO5_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W CAN1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003226 00000028 T i2cRead
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002a00 00000004 B pxCurrentTCB
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100000d0 00000004 B alfa
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:53ff3388 A __valid_user_code_checksum
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c8 R _etext
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W USB1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W I2S0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002274 00000018 T vTaskInternalSetTimeOutState
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003330 00000044 T TIMER3_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003e2e 0000000c T Chip_Clock_GetBaseClocktHz
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000178 0000000a T UART0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0001b4 00000012 T bss_init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002ab8 00000110 T xPortStartScheduler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004cbc 00000016 T memcpy
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002180 00000030 T vTaskPlaceOnEventList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SGPIO_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000d94 0000000c T Ampu9250GetAccelX_mss
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004800 00000022 T __floatsidf
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002a80 00000038 W vPortSetupTimerInterrupt
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0043a0 00000030 T Chip_I2C_MasterStateHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004974 T __aeabi_uldivmod
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002d0c ? _noinit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001250 00000016 T vPortFree
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003142 00000018 T uartWriteString
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002d08 00000004 B SystemCoreClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003710 00000054 T Chip_UART_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W ADC0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002f40 00000038 T tickerCallback
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002bc8 0000005c T vPortValidateInterruptPriority
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00018a 00000002 W UsageFault_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003eac 0000004c T Chip_Clock_GetRate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001916 00000018 T vListInsertEnd
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GPIO6_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002cf8 00000008 B tickCounter
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00366c 0000006c T Board_SetupClocking
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:20008000 A __top_RamAHB32
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0047e0 0000001e T __aeabi_ui2d
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004370 00000030 T Chip_I2C_SetMasterEventHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0049a4 000002cc T __udivmoddi4
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00455c T __aeabi_drsub
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f1c 00000004 T ExtRateIn
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W IntDefaultHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000300 T __CRP_WORD_END__
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001910 00000006 T vListInitialiseItem
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000300 00000040 T myTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002cb6 0000000a T GPIO1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001728 00000158 T xQueueReceive
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002cb4 00000040 B xQueueRegistry
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004824 00000042 T __extendsfdf2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0019a4 00000018 T vApplicationGetTimerTaskMemory
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SSP0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004568 00000276 T __adddf3
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0050c0 R __exidx_start
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0002fc 00000004 T CRP_WORD
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004c74 00000048 T __libc_init_array
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0047e0 0000001e T __floatunsidf
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W ADC1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0011e0 00000070 T pvPortMalloc
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0035dc 0000003c T Board_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004558 00000002 T _init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0018fa 00000016 T vListInitialise
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000dd0 0000000c T Ampu9250GetGyroZ_rads
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000114 T __data_section_table
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0048d4 0000009e T __aeabi_d2f
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001e54 0000000c T xTaskGetTickCount
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0014e0 0000017c T xQueueGenericSend
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W RTC_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002d0c B _ebss
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00326c 00000040 T TIMER0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002f78 0000004c T tickInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:20010000 A __top_RamAHB_ETB16
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SPI_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004156 00000024 T Chip_I2CM_XferBlocking
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004338 00000038 T Chip_I2C_SetClockRate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002338 000000b0 T xTaskPriorityDisinherit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W LCD_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003b64 0000004c T Chip_Clock_EnableCrystal
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10008000 A __top_RamLoc32
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0021e8 0000008c T xTaskRemoveFromEventList
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0019be 00000002 T vApplicationMallocFailedHook
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004568 00000276 T __aeabi_dadd
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000196 0000001e T data_init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0003f8 00000264 T tareaA
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000dc4 0000000c T Ampu9250GetGyroY_rads
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004868 0000006a T __aeabi_ul2d
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0032ac 00000040 T TIMER1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004314 00000024 T Chip_I2C_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00315a 0000000a T UART2_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003d20 0000006c T Chip_Clock_GetMainPLLHz
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004d90 00000136 T gpioPinsInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003128 0000001a T uartWriteByte
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00444c 00000012 T Chip_SSP_SetClockRate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002cc0 0000000a T GPIO2_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00228c 00000080 T xTaskCheckForTimeOut
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003e08 00000026 T Chip_Clock_GetBaseClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000db8 0000000c T Ampu9250GetGyroX_rads
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100000d0 B _bss
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003914 00000032 T Chip_ADC_SetSampleRate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004564 0000027a T __aeabi_dsub
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001e44 00000010 T vTaskSuspendAll
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004868 0000006a T __floatundidf
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W I2S1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00445e 0000003e T Chip_SSP_SetBitRate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001962 00000028 T uxListRemove
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000da0 0000000c T Ampu9250GetAccelY_mss
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0041d0 00000002 T Chip_GPIO_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004f48 00000004 T OscRateIn
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0030ac 0000007c T uartInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001cd8 00000072 T xTaskCreateStatic
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002d0c ? _end_noinit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10008000 A _vStackTop
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0020b8 000000c8 T vTaskSwitchContext
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SSP1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00144e 00000090 T xQueueGenericCreateStatic
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0021b0 00000038 T vTaskPlaceOnEventListRestricted
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000178 T __bss_section_table_end
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004800 00000022 T __aeabi_i2d
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002d00 00000194 T gpioInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00198c 00000018 T vApplicationGetIdleTaskMemory
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0025b0 0000006c T xTimerGenericCommand
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0019bc 00000002 T vApplicationStackOverflowHook
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004c70 00000002 W __aeabi_ldiv0
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W USB0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GPIO3_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0043d0 00000018 T Chip_I2C_IsStateChanged
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SCT_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003bcc 0000001c T Chip_Clock_GetDividerDivisor
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0002fc T __CRP_WORD_START__
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004cd2 00000010 T memset
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000186 00000002 W MemManage_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00065c 0000006c T main
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W WDT_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00192e 00000034 T vListInsert
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:2000c000 A __top_RamAHB16
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1008a000 A __top_RamLoc40
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002950 00000024 T SVC_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000008 00000004 D DWT_CTRL
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002500 00000064 T xTimerCreateTimerTask
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0048d4 0000009e T __truncdfsf2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004878 0000005a T __aeabi_l2d
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003080 00000018 T uartTxReady
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GPIO7_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003e3c 0000003c T Chip_Clock_EnableOpts
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003be8 000000b8 T Chip_Clock_GetClockInputHz
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00417c 00000054 T fpuInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003ca0 00000080 T Chip_Clock_CalcMainPLLValue
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003618 0000001c T SystemInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W SPIFI_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W QEI_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000150 T __bss_section_table
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002e94 00000056 T gpioWrite
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001f78 000000f4 T xTaskResumeAll
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001db0 00000094 T vTaskStartScheduler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0038d4 00000040 T Chip_ADC_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003634 00000038 T Board_SetupMuxing
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0037a4 000000e8 T Chip_UART_SetBaudFDR
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002d00 00000008 B tickRateMS
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W ETH_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002c60 00000004 B tickHookFunction
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000000 ? _end_uninit_RESERVED
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100000d4 00000001 B beta
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003098 00000014 T uartTxWrite
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W CAN0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00404c 000000fc T Chip_I2CM_XferHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10000000 D _data
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00230c 0000000c T vTaskMissedYield
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:10002d0c B _pvHeapStart
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000178 T __section_table_end
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00449c 00000038 T Chip_SSP_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0043e8 00000038 T Chip_I2C_EventHandlerPolling
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001880 00000028 T vQueueAddToRegistry
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GINT0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001e60 00000118 T xTaskIncrementTick
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W DAC_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00324e 00000018 T i2cWrite
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0035b8 00000024 T Board_Debug_Init
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0013a8 00000084 T xQueueGenericReset
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:100000cc D _edata
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0041d4 00000020 T Chip_I2C_EventHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W M0SUB_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a001d4a 00000066 T xTaskCreate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003ef8 00000154 T Chip_SetupCoreClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002cac 0000000a T GPIO0_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000340 000000b8 T myTask2
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000000 00000114 T g_pfnVectors
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0044d4 00000084 T ResetISR
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003954 00000014 T SystemCoreClockUpdate
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W DMA_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a00206c 0000004c T vTaskDelay
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W EVRT_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1b080000 A __top_MFlashB512
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002318 00000020 T xTaskGetSchedulerState
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004c70 00000002 W __aeabi_idiv0
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000188 00000002 W BusFault_Handler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002924 0000002c T pxPortInitialiseStack
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003e78 00000034 T Chip_Clock_Enable
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003164 0000000a T UART3_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W MCPWM_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002564 0000004c T xTimerCreateStatic
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W M0APP_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002eea 00000054 T gpioRead
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004824 00000042 T __aeabi_f2d
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003374 000000f4 T boardInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002974 00000044 T vPortEnterCritical
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a004564 0000027a T __subdf3
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GINT1_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000dac 0000000c T Ampu9250GetAccelZ_mss
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a003db0 00000058 T Chip_Clock_SetBaseClock
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a002c24 0000001c T cyclesCounterInit
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a000194 00000002 W GPIO4_IRQHandler
+ProyectoFreeRTOS/out/ProyectoFreeRTOS.elf:1a0036d8 0000000c T Board_SystemInit

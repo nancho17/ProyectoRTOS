@@ -1,6 +1,7 @@
-ProyectoFreeRTOS/out/ProyectoFreeRTOS/src/freeRTOS_blinky.o: \
- ProyectoFreeRTOS/src/freeRTOS_blinky.c \
- ProyectoFreeRTOS/inc/FreeRTOSConfig.h \
+ProyectoFreeRTOS/out/libs/sapi/sapi_v0.5.1/src/sapi_stdio.o: \
+ libs/sapi/sapi_v0.5.1/src/sapi_stdio.c \
+ libs/sapi/sapi_v0.5.1/inc/sapi_stdio.h libs/sapi/sapi_v0.5.1/inc/sapi.h \
+ libs/sapi/sapi_v0.5.1/inc/sapi_datatypes.h \
  libs/vendor_libs/lpc_chip_43xx/inc/chip.h \
  libs/vendor_libs/lpc_chip_43xx/inc/config_43xx/sys_config.h \
  libs/vendor_libs/lpc_chip_43xx/inc/cmsis.h \
@@ -63,16 +64,6 @@ ProyectoFreeRTOS/out/ProyectoFreeRTOS/src/freeRTOS_blinky.o: \
  libs/vendor_libs/lpc_chip_43xx/inc/error.h \
  libs/vendor_libs/lpc_chip_43xx/inc/i2cm_18xx_43xx.h \
  libs/vendor_libs/lpc_chip_43xx/inc/fpu_init.h \
- libs/freertos/include/FreeRTOS.h \
- libs/freertos/include/private/projdefs.h \
- libs/freertos/include/private/portable.h \
- libs/freertos/include/private/deprecated_definitions.h \
- libs/freertos/source/portable/ARM_CM4F/portmacro.h \
- libs/freertos/include/private/mpu_wrappers.h \
- libs/freertos/include/queue.h libs/freertos/include/task.h \
- libs/freertos/include/private/list.h libs/freertos/include/semphr.h \
- libs/freertos/include/queue.h libs/sapi/sapi_v0.5.1/inc/sapi.h \
- libs/sapi/sapi_v0.5.1/inc/sapi_datatypes.h \
  libs/vendor_libs/lpc_board_ciaa_edu_4337/inc/board.h \
  libs/vendor_libs/lpc_board_ciaa_edu_4337/inc/board_api.h \
  libs/vendor_libs/lpc_chip_43xx/inc/lpc_types.h \
@@ -98,14 +89,11 @@ ProyectoFreeRTOS/out/ProyectoFreeRTOS/src/freeRTOS_blinky.o: \
  libs/sapi/sapi_v0.5.1/inc/sapi_7_segment_display.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_keypad.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_servo.h \
- libs/sapi/sapi_v0.5.1/inc/sapi_rgb.h libs/sapi/sapi_v0.5.1/inc/sapi.h \
+ libs/sapi/sapi_v0.5.1/inc/sapi_rgb.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_dht11.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_esp8266.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_lcd.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_ultrasonic_hcsr04.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_magnetometer_hmc5883l.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_magnetometer_qmc5883l.h \
- libs/sapi/sapi_v0.5.1/inc/sapi_imu_mpu9250.h \
- ProyectoFreeRTOS/inc/adaptacion_mpu9250.h \
- libs/sapi/sapi_v0.5.1/inc/sapi_datatypes.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_imu_mpu9250.h
